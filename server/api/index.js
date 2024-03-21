@@ -1,10 +1,10 @@
 const path = require('path');
 
-const defaultPage = (req, res) => {
-    return notFound(req, res);
+const api = (req, res) => {
+    return res.json({ message: "You've Reached the TTRPG Gridmap API" });
 }
 
-const indexJS = (req, res) => {
+const defaultPage = (req, res) => {
     return notFound(req, res);
 }
 
@@ -13,7 +13,7 @@ const notFound = (req, res) => {
 }
 
 module.exports = {
-    indexJS,
+    api,
     defaultPage,
     notFound
 };
