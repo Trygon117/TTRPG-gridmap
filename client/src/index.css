@@ -1,0 +1,19 @@
+:root {
+  /* Light Mode */
+  --TextColor-Light: #000000;
+  --PrimaryBackgroundColor-Light: #cfe8f3;
+  --SecondaryBackgroundColor-Light: #ADD8EB;
+  --Highlight-Light: #898c8f;
+
+  /* Dark Mode */
+  --TextColor-Dark: #FFFFFF;
+  --PrimaryBackgroundColor-Dark: #000C11;
+  --SecondaryBackgroundColor-Dark: #011b27;
+  --Highlight-Dark: #a0a3a8;
+
+  /* Constant */
+  --Hover: rgba(131, 131, 131, 0.5);
+  --PrimaryColor: #40BFA7;
+  --NavBar: #0A5178;
+  --Disabled: rgba(70, 70, 70, 0.6);
+}
